@@ -1,10 +1,10 @@
 # Shell Commands
 
-Here we will introduce how to write commands on the command line using the Terminal app on macOS.
+Here we introduce how to write commands on the command line using the Terminal app on macOS.
 
 ## Opening Terminal
 
-Open the terminal application from the Application Dock.
+Open the terminal application from the Application Dock or from the Utilities subfolder in the Applications folder.
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png alt="Terminal" width="200"/>
 
