@@ -1,8 +1,10 @@
 # Installing Python
 
 Here we review how to install Python using either [python.org](python.org) or 
-[Anaconda](anaconda.com). Skip to the section titled **Full Anaconda Installation** if you are short on time and
-want the Python version that will work best for most people.
+[Anaconda](anaconda.com). 
+
+Skip to the **Full Anaconda Installation** section if you just
+want the Python version that will work best in most cases.
 
 ## Motivation
 
