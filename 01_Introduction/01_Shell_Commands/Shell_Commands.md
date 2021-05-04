@@ -11,17 +11,17 @@ Open the terminal application from the Application Dock or from the Utilities su
 This will open a new Terminal window with the following line:   
 
 ```shell
-(base) yourname@something ~ %
+yourname@something ~ %
 ```
 
 ## Writing Commands
 
 ### Print Working Directory
 
-Type the command `pwd`, to print the working directory. 
+Enter the command `pwd`, to print the working directory. 
 
 ```shell
-(base) yourname@something ~ % pwd
+yourname@something ~ % pwd
 ```
 
 This will print the folder you are currently working in:
@@ -32,10 +32,10 @@ This will print the folder you are currently working in:
 
 ### List Directory Contents
 
-Type the command `ls` to get a list of all files and folders within your current working directory.
+Enter the command `ls` to get a list of all files and folders within your current working directory.
 
 ```shell
-(base) yourname@something ~ % ls
+yourname@something ~ % ls
 ```
 
 
@@ -47,21 +47,21 @@ Downloads       Library       Pictures
 
 ### Change Directory
 
-Type the command `cd` followed by a directory path to change your working directory.
+Enter the command `cd` followed by a directory path to change your working directory.
 For example, if Documents is in the current working directory, 
 typing `cd Documents` would make Documents the current working directory:
 
 ```shell
-(base) yourname@something ~ % cd Documents/
+yourname@something ~ % cd Documents/
 ```
 
-Type `pwd` to get the path of the Documents folder.
+Enter `pwd` to get the path of the Documents folder.
 
 ```shell
 Users/yourname/Documents
 ```
 
-Type `ls` to get a list of files and folders in the Documents folder.
+Enter `ls` to get a list of files and folders in the Documents folder.
 
 ## Command Line Usage
 
