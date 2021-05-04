@@ -47,13 +47,18 @@ Downloads       Library       Pictures
 
 ### Change Directory
 
-Enter the command `cd` followed by a directory path to change your working directory.
+Enter the command `cd [path]` to change your working directory to `[path]`, where `[path]` is a directory path.
 For example, if Documents is in the current working directory, 
 typing `cd Documents` would make Documents the current working directory:
 
 ```shell
 yourname@something ~ % cd Documents/
 ```
+
+**Tip:** the `~` can be used to reference your home directory, so you can use `cd ~/Documents/` to change to the Documents 
+folder from any directory
+
+**Tip:** use the tab key to autocomplete directory paths when typing
 
 Enter `pwd` to get the path of the Documents folder.
 
@@ -63,14 +68,21 @@ Users/yourname/Documents
 
 Enter `ls` to get a list of files and folders in the Documents folder.
 
+### Make Directory
+
+Enter the command `mkdir [path]` to make a directory, where `[path]` is the directory path.
+For example, if we want to create a new directory called test_directory in our Documents folder,
+we can use the command
+
+```shell
+yourname@something ~ % mkdir ~/Documents/test_directory
+```
+
 ## Command Line Usage
 
 While the above tasks can be accomplished using Finder, the command line will
 be helpful later on for managing virtual environments, installing python packages, using jupyter notebooks, 
 and using git version control, which we will cover in subsequent modules.
-
-See [here](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) 
-for a complete list of shell commands.
 
 ## Command Summary
 
@@ -79,5 +91,9 @@ Command | Description
 `pwd` | Print working directory
 `ls` | List directory contents
 `cd [path]` | Change directory to `[path]`
+`mkdir [path]` | Make a directory at `[path]`
+
+For a complete list of shell commands see 
+[here](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
 
 
