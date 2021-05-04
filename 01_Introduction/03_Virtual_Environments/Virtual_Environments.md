@@ -22,10 +22,10 @@ To create a new virtual environment enter:
 yourname@something ~ % python3.8 -m venv my_env
 ```
 
-**Note**: if you would like to use Python 2.7, for example, and Python 2.7 is installed then use 
+**Tip**: if you would like to use Python 2.7, for example, and Python 2.7 is installed then use 
 `python2.7` instead of `python3.8`
 
-**Note:** to create an environment with a different name replace `my_env` with the name of your choice    
+**Tip:** to create an environment with a different name replace `my_env` with the name of your choice    
 
 Check that there's a new folder called my_env in your project folder. 
 
@@ -78,10 +78,10 @@ yourname@something ~ % conda create --name my_env
 When prompted answer `y` to confirm the installation location.
 
 
-**Note**: if you would like to use a different version of Python, say Python 2.7, enter 
+**Tip**: if you would like to use a different version of Python, say Python 2.7, enter 
 `conda create --name my_env python=2.7`
 
-**Note:** to create an environment with a different name replace `my_env` with the name of your choice
+**Tip:** to create an environment with a different name replace `my_env` with the name of your choice
 
 To activate the virtual environment enter
 
@@ -98,13 +98,13 @@ You can now use Python in your new virtual environment
 Test Python by entering
 
 ```shell
->>>1+1
+>>> 1+1
 ```
 
 To quit Python enter
 
 ```shell
->>>quit()
+>>> quit()
 ```
 
 Finally, to deactivate the virtual environment enter
