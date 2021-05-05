@@ -1,4 +1,6 @@
-# GitHub
+# GitHub 
+
+<img src="images/github-mark.png" alt="github" width="200"/>
 
 [Github]("https://github.com/") is a code hosting platform for version control and collaboration. GitHub lets 
 collaborators code review, contribute, report bugs etc. on your project. It is based on the Git version control system. 
