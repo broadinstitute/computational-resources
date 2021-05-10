@@ -4,8 +4,8 @@ This repository will help you navigate through computational resources necessary
 
 For questions, contact:
 
-Mudra Hegde, [mhegde@broadinstitute.org]()
+Mudra Hegde, mhegde@broadinstitute.org
 
-Peter DeWeirdt, [pdeweird@broadinstitute.org]()
+Peter DeWeirdt, pdeweird@broadinstitute.org
 
-Priyanka Roy, [proy@broadinstitute.org]()
+Priyanka Roy, proy@broadinstitute.org
