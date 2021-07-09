@@ -1,6 +1,6 @@
 # Shell Commands
 
-Here we introduce how to write commands on the command line using the Terminal app on macOS.
+Here we introduce how to use the command line on macOS.
 
 ## Opening Terminal
 
@@ -18,13 +18,13 @@ yourname@something ~ %
 
 ### Print Working Directory
 
-Enter the command `pwd`, to print the working directory. 
+Enter the command `pwd`, to print the working directory 
 
 ```shell
 yourname@something ~ % pwd
 ```
 
-This will print the folder you are currently working in:
+This will print the folder you are currently working in
 
 ```shell
 /Users/yourname
@@ -49,7 +49,7 @@ Downloads       Library       Pictures
 
 Enter the command `cd [path]` to change your working directory to `[path]`, where `[path]` is a directory path.
 For example, if Documents is in the current working directory, 
-typing `cd Documents` would make Documents the current working directory:
+typing `cd Documents` makes Documents the current working directory:
 
 ```shell
 yourname@something ~ % cd Documents/
@@ -71,8 +71,7 @@ Enter `ls` to get a list of files and folders in the Documents folder.
 ### Make Directory
 
 Enter the command `mkdir [path]` to make a directory, where `[path]` is the directory path.
-For example, if we want to create a new directory called test_directory in our Documents folder,
-we can use the command
+For example, if you want to create a new directory called test_directory in your Documents folder, use the command
 
 ```shell
 yourname@something ~ % mkdir ~/Documents/test_directory
@@ -81,8 +80,8 @@ yourname@something ~ % mkdir ~/Documents/test_directory
 ## Command Line Usage
 
 While the above tasks can be accomplished using Finder, the command line will
-be helpful later on for managing virtual environments, installing python packages, using jupyter notebooks, 
-and using git version control, which we will cover in subsequent modules.
+be helpful later for managing virtual environments, installing python packages, using jupyter notebooks, 
+and using git version control.
 
 ## Command Summary
 

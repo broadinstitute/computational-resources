@@ -9,7 +9,7 @@ while maintaining the older versions for old projects.
 
 Here we will highlight two approaches for creating and maintaining virtual environments: venv and conda.
 
-Skip to the **conda** section if you just
+Skip to the [conda](#conda) section if you 
 want the virtual environment manager that will work best in most cases.
 
 ## venv
@@ -63,7 +63,7 @@ Finally, to deactivate the virtual environment enter
 (my_env) yourname@something ~ % deactivate
 ```
 
-For more information about how to use venv, consult the documentation 
+For more information about how to use venv, see the official documentation 
 [here](https://docs.python.org/3/library/venv.html).
 
 ## conda
@@ -113,11 +113,11 @@ Finally, to deactivate the virtual environment enter
 (my_env) yourname@something ~ % conda deactivate
 ```
 
-For more information about how to use conda to manage virtual environments, consult the Anaconda documentation 
+For more information about how to use conda to manage virtual environments see the official Anaconda documentation 
 [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## Which Method to Choose?
 
 venv is convenient because it comes pre-installed with Python, so if you do not have Anaconda installed this is the choice
-for you. If you do have Anaconda installed, we find that the syntax for using conda is easier to remember 
-than venv and thus recommend conda.
+for you. If you do have Anaconda installed, the syntax for using conda is easier to remember 
+than venv and thus we recommend conda.
