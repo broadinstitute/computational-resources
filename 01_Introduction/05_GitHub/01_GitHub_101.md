@@ -3,7 +3,7 @@
 <img src="images/github-mark.png" alt="github" width="200"/>
 
 [Github](https://github.com/) is a code hosting platform for version control and collaboration. GitHub lets 
-collaborators code review, contribute, and report bugs projects. It is based on the Git version control system. 
+collaborators code review, contribute, and report bugs on your projects. It is based on the Git version control system. 
 GitHub can also be used to keep a version of your code on the cloud. There are few other code hosting platforms such as 
 SourceForge, Bitbucket and GitLab.
 
