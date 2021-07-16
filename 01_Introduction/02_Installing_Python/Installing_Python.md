@@ -3,47 +3,43 @@
 Here we review how to install Python using either [python.org](python.org) or 
 [Anaconda](anaconda.com). 
 
-Skip to the **Full Anaconda Installation** section if you just
+Skip to the [Full Anaconda Installation](#full-anaconda-installation) section if you
 want the Python version that will work best in most cases.
 
 ## Motivation
 
-MacOS comes with a built-in version of Python, however relying on this as your primary Python installation is 
-problematic because:
-
-1. The installation is managed by the operating system, so if you upgrade you may 
-lose all of your installed packages
-
-2. You may prefer a different version of Python that's either more up to date or compatible with 
-a specific analysis
+MacOS comes with a built-in version of Python, but relying on this as your primary Python installation is 
+problematic because the installation is managed by the operating system, so if you upgrade you may 
+lose all of your installed packages, and you may prefer a different version of Python that's either more up to date or compatible with 
+a specific analysis pipeline.
 
 ## Installing from python.org
 
-Visit [python.org/downloads](python.org/downloads) and click on the download button pictured below.
+Visit [python.org/downloads](python.org/downloads), click on the download button, and follow the graphical installation.
 
 <img src="images/download_python.png" alt="Download" width="200"/>
 
-Follow the graphical installation and when finished check the installation by entering:
+Check the installation succeeded by entering:
 
 ```shell
 yourname@something ~ % python3.9
 ```
 
-Making sure to update `pythonX.X` with whichever version of python you installed. 
+Updating `pythonX.X` with whichever version of python you installed. 
 
-This will open a new instance of Python. Test your Python installation:
+This will open a new instance of Python where you can write code
 
 ```shell
 >>> 1 + 1
 ```
 
-To exit Python:
+You can exit Python by entering
 
 ```shell
 >>> quit()
 ```
 
-You can install different versions of Python from the same downloads page.
+Different versions of Python are all available from the same downloads on python.org.
 
 ## Installing from Anaconda
 
@@ -51,11 +47,11 @@ You can install different versions of Python from the same downloads page.
 
 Anaconda comes as a bundle of installations including Python, hundreds of Python packages, an integrated development
 environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)), 
-and other software for doing data science analyses. This is useful for setting up a near complete 
+and other software for doing data science. This is useful for setting up a near complete 
 data science environment in a single installation. 
 
-The biggest drawback of using the full Anaconda installation is that Anaconda takes up
-about 3 GB of space on your computer. This is due to the large number of
+The biggest drawback of using the full Anaconda installation is that Anaconda uses 3 GB of space on your computer. 
+The large size is a result of all of the
 packages that come pre-installed with Anaconda. Miniconda (below) does not come with the pre-installed packages 
 and thus is smaller if disk space is a concern.
 
@@ -65,8 +61,8 @@ cryptographic hash verification.
 
 ### Miniconda Installation
 
-Miniconda is another distribution from Anaconda, that exclusively
-comes with Python and a few essential packages, making it much smaller.
+Miniconda is another distribution of Anaconda, that exclusively
+comes with Python and a few essential packages, making it a much smaller installation.
 
 To install miniconda visit the [downloads page](https://docs.conda.io/en/latest/miniconda.html) and click the MacOSX 
 download link for your version of interest. The link that ends in 'pkg' will download the graphical installer.
@@ -95,19 +91,19 @@ This will activate your base environment, from which you can use Anaconda's dist
 (base) yourname@something ~ % python
 ```
 
-This will open a new instance of Python. Test your Python installation:
+You can now write python code in the terminal
 
 ```shell
 >>> 1 + 1
 ```
 
-To exit Python:
+To exit Python enter
 
 ```shell
 >>> quit()
 ```  
 
-To exit the base Anaconda environment enter:
+To exit the base Anaconda environment enter
 
 ```shell
 (base) yourname@something ~ % conda deactivate
