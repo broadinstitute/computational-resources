@@ -125,8 +125,7 @@ I'm testing out **Jupyter Notebooks**
 * Excited
 
 When you are done working on a project first save your notebook. 
-Then exit from the Jupyter server by opening the Terminal window with the running server 
-running in and type `ctrl + c`.
+Then exit from the Jupyter server by opening the Terminal window with the running server and type `ctrl + c`.
 
 ## References
 
