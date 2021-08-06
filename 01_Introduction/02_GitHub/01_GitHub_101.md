@@ -4,7 +4,7 @@
 
 [Github](https://github.com/) is a code hosting platform for version control and collaboration. GitHub lets 
 collaborators code review, contribute, and report bugs on your projects. It is based on the Git version control system. 
-GitHub can also be used to keep a version of your code on the cloud. There are few other code hosting platforms such as 
+GitHub can also be used to keep a version of your code on the cloud. There are afew other code hosting platforms such as 
 SourceForge, Bitbucket and GitLab.
 
 GitHub user accounts are free and can be created [here](https://github.com)
@@ -41,3 +41,15 @@ To make a copy of the *[computational-resources](https://github.com/gpp-rnd/comp
 ## Github for Broadies
 To link your account to the broadinstitute GitHub team, please follow the instructions for "GitHub for Broadies" on 
 [this](https://intranet.broadinstitute.org/bits/service-catalog/software-development-support/github) page.
+
+## GitHub Issues
+
+GitHub provides a great interface for reporting bugs and making suggestions for repositories. 
+If you have any ideas or notice something wrong with the computational-resources repository, 
+we suggest that you create an issue on GitHub, so it's tracked in a central location. To create an issue go to 
+the issues tab and click on New issue. 
+
+![Issue](images/github-issue.png)
+
+Please be specific when creating an issue, so someone else (or yourself) can understand it and 
+improve the computational-resources repository for future versions.
