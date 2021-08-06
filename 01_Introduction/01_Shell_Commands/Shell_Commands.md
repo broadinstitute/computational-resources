@@ -55,8 +55,11 @@ typing `cd Documents` makes Documents the current working directory:
 yourname@something ~ % cd Documents/
 ```
 
-**Tip:** the `~` can be used to reference your home directory, so you can use `cd ~/Documents/` to change to the Documents 
+**Tip:** Use `~` to reference your home directory, so for example you can use `cd ~/Documents/` to change to the Documents 
 folder from any directory
+
+**Tip:** Use `..` to move up a directory, so for example `cd ..` would move you to your home directory from your 
+Documents folder.
 
 **Tip:** use the tab key to autocomplete directory paths when typing
 
