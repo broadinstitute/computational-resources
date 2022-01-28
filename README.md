@@ -6,6 +6,6 @@ For questions, contact:
 
 Mudra Hegde, mhegde@broadinstitute.org
 
-Peter DeWeirdt, pdeweird@broadinstitute.org
+Fengyi Zheng, fzheng@broadinstitute.org
 
 Priyanka Roy, proy@broadinstitute.org
