@@ -1,4 +1,4 @@
-# Welcome to GPP R&D's Computational Resource
+# Welcome to GPP R&D's Computational Resources
 
 This repository will help you navigate through computational resources necessary to get started with data analysis.
 
