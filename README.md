@@ -12,13 +12,3 @@ group in the Genetic Perturbation Platform. If you have any questions or suggest
 please create an issue here on GitHub. 
 
 Based on feedback and ideas for new modules we will periodically update this repository.
-All updates will be tracked below. You can reference older versions of this repository by checking
-out a different release or older commit on GitHub. 
-
-## History
-
-### 2021-06-06
-
-- Added `..` command to shell commands
-- Unified to a single virtual environment and requirements.txt file across modules
-- Highlighted the use of issues in the github module
