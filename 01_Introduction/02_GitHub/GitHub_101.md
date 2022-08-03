@@ -9,9 +9,9 @@ SourceForge, Bitbucket and GitLab.
 
 GitHub user accounts are free and can be created [here](https://github.com)
 
-## R&D Github
-Once you have a GitHub account, please email *mhegde@broadinstitute.org* to be added to the 
-[GPP R&D](https://github.com/gpp-rnd) group. 
+## Github for Broadies
+To link your account to the broadinstitute GitHub organization and GPP-computation team, please follow the instructions 
+in [GitHub_GPP_broadinstitute.md](GitHub_GPP_broadinstitute.md).
 
 ## Github terms:
 1. **Repository**: A project is referred to as a repository in GitHub. For eg. the [GPP R&D](https://github.com/gpp-rnd) 
@@ -37,10 +37,6 @@ To make a copy of the *[computational-resources](https://github.com/gpp-rnd/comp
    ![Code](images/github_clone_link.png)
 
 *Refer to the "01_Shell_Commands" folder in the "01_Introduction" folder for details on this command.
-
-## Github for Broadies
-To link your account to the broadinstitute GitHub team, please follow the instructions for "GitHub for Broadies" on 
-[this](https://intranet.broadinstitute.org/bits/service-catalog/software-development-support/github) page.
 
 ## GitHub Issues
 
