@@ -18,40 +18,16 @@ so you can reference any files you create at a later date.
 (comp_resources) yourname@something ~ % cd path/to/05_Jupyter_Notebooks
 ```
 
-## Installing and Opening Jupyter Notebooks
+Jupyter Notebooks should already be installed if you have already pip installed the requirements.txt file in the Conda module, go back and do so if you have not already
 
-You can install Jupyter Notebooks directly or through JupyterLab.
 
-If you have already pip installed the requirements.txt file in the Virtual Environments module, then Jupyter Notebooks should already be installed.
+## Opening a Jupyter Notebook
 
-### Installing Jupyter Notebook
-
-To install Jupyter Notebooks use
-
-```shell
-(comp_resources) ... % pip install notebook 
-```
-
-### Installing JupyterLab
-
-To install JupyterLab, which contains Jupyter Notebooks as well as an updated user interface, enter
-
-```shell
-(comp_resources) ... % pip install jupyterlab
-```
-
-### Making virtual environment available as a notebook kernel
-
-Before running a Jupyter Notebook or Jupyter Lab, make your virtual environment available as a notebook kernel 
+Before running a Jupyter Notebook or Jupyter Lab, make your virtual environment available as a notebook kernel - instances of Python that a notebook can run on.
 
 ```shell
 (comp_resources) ... % python -m ipykernel install --user --name comp_resources
 ```
-
-Notebook kernels are instances of Python that a notebook can run on.
-
-
-### Opening Jupyter Notebook
 
 You can start a new Jupyter Notebook session with your virtual environment
 
@@ -59,8 +35,7 @@ You can start a new Jupyter Notebook session with your virtual environment
 (comp_resources) ... % jupyter notebook
 ```
 
-Create a new notebook with the comp_resources kernel by selecting New and comp_resources under the 
-Notebook heading.
+Create a new notebook with the comp_resources kernel by selecting New and comp_resources under the Notebook heading.
 
 <img src="images/new.png" alt="New" width="106"/>
 
@@ -68,28 +43,10 @@ This will generate a notebook like the one below
 
 <img src="images/jupyter_notebook.png" alt="Notebook" width="500"/>
 
-### Opening Jupyter Lab
-
-You can launch JupyterLab with
-
-```shell
-(comp_resources) ... % jupyter-lab
+You can also launch a Jupyter-lab session with an updated interface that allows for multi-window viewing. The notebook functionality will remain the same irrespective of which installation method you choose.
 ```
-
-Create a new notebook by selecting the comp_resources kernel, which should have an 
-icon like the one below
-
-<img src="images/kernel.png" alt="Kernel" width="121"/>
-
-This will open a new notebook in Jupyter Lab
-
-<img src="images/jupyter_lab.png" alt="Jupyter Lab" width="500"/>
-
-### Which Method to Use
-
-JupyterLab has an updated interface which allows for multi-window viewing. 
-The notebook functionality will remain the same irrespective of which 
-installation method you choose.
+jupyter-lab
+```
 
 ## Using Jupyter Notebooks
 
@@ -129,8 +86,8 @@ Then exit from the Jupyter server by opening the Terminal window with the runnin
 
 ## What's Next
 
-Check out the Jupyter_Notebooks_shortcut_tips for shortcuts you can use while working 
-in Jupyter notebooks. The resources below are also helpful references for learning more.
+Check out [Jupyter_Notebooks_shortcut_tips.md](Jupyter_Notebooks_shortcut_tips.md) for shortcuts you can use in Jupyter. 
+The resources below are also helpful references for learning more.
 
 * [markdown syntax](https://www.markdownguide.org/basic-syntax/)
 * [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/index.html)
