@@ -15,11 +15,10 @@ For this tutorial we suggest that you work in the Jupyter_Notebooks module on yo
 so you can reference any files you create at a later date.
 
 ```shell
-(comp_resources) yourname@something ~ % cd path/to/05_Jupyter_Notebooks
+(comp_resources) yourname@something ~ % cd path/to/04_Jupyter_Notebooks
 ```
 
-Jupyter Notebooks should already be installed if you have already pip installed the requirements.txt file in the Conda module, go back and do so if you have not already
-
+JupyterLab should already be installed if you have already pip installed the `requirements.txt` file in the Conda module, go back and do so if you have not already
 
 ## Opening a Jupyter Notebook
 
@@ -43,7 +42,7 @@ This will generate a notebook like the one below
 
 <img src="images/jupyter_notebook.png" alt="Notebook" width="500"/>
 
-You can also launch a Jupyter-lab session with an updated interface that allows for multi-window viewing. The notebook functionality will remain the same irrespective of which installation method you choose.
+**Tip** You can also launch a Jupyter-lab session with an updated interface that allows for multi-window viewing. The notebook functionality will remain the same irrespective of which installation method you choose.
 ```
 jupyter-lab
 ```
