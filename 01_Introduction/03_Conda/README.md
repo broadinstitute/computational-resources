@@ -20,10 +20,11 @@ Enter the following command in Terminal
 ```
 brew install --cask anaconda
 ```
-Verify the installation by entering 
 
-```shell
-conda --version
+If your Mac has an M1 chip, you need to also run the following command and **restart** Terminal 
+**Tip** You can check what chip your Mac has by clicking on the Apple logo on the top left corner of your laptop and click on "About This Mac"
+```
+~/../../opt/homebrew/anaconda3/bin/conda init zsh
 ```
 
 At this point, you may notice a new part of the stub on your command line that says `(base)`. This signifies that you are in a Conda virtual environment named "base". 
@@ -76,15 +77,14 @@ To quit Python enter
 >>> quit()
 ```
 
-Now you can install the Python packages you will need for performing all the analyses
-in computational-resources
+Now you can install the Python packages you will need for performing all the analyses in computational-resources. Make sure you have this repository cloned and that you are `cd`ed into the computational-resources folder.  
 
 ```shell
 (comp_resources) yourname@something ~ pip install -r requirements.txt
 ```
 
 This command uses the package management software, pip, to install all the packages
-specified in the requirements.txt file. A requirements file lists the package names and versions
+specified in the `requirements.txt` file. A requirements file lists the package names and versions
 required for an analysis. Using pip, you
 can install any package on the [Python Package Index](https://pypi.org/) (PyPI).
 
