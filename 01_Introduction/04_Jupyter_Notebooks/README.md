@@ -11,13 +11,6 @@ Activate your comp_resources virtual environment from the Virtual Environments m
 yourname@something ~ % conda activate comp_resources
 ```
 
-For this tutorial we suggest that you work in the Jupyter_Notebooks module on your computer
-so you can reference any files you create at a later date.
-
-```shell
-(comp_resources) yourname@something ~ % cd path/to/04_Jupyter_Notebooks
-```
-
 JupyterLab should already be installed if you have already pip installed the `requirements.txt` file in the Conda module, go back and do so if you have not already
 
 ## Opening a Jupyter Notebook
