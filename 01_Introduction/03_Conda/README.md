@@ -21,7 +21,7 @@ Enter the following command in Terminal
 brew install --cask anaconda
 ```
 
-If your Mac has an M1 chip, you need to also run the following command and **restart** Terminal 
+If your Mac has an M-series chip, you need to also run the following command **and restart** Terminal    
 **Tip** You can check what chip your Mac has by clicking on the Apple logo on the top left corner of your laptop and click on "About This Mac"
 ```
 ~/../../opt/homebrew/anaconda3/bin/conda init zsh
