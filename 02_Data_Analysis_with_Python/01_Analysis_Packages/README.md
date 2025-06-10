@@ -1,16 +1,11 @@
 # Analysis Packages
 
-Activate your virtual environment and navigate to this repository if you haven't yet
+Activate your virtual environment, navigate to this repository, and open jupyter notebook if you haven't yet
 
 ```shell
 yourname@something ~ % source ~/base_analysis/bin/activate
 cd Desktop/computational-resources
+jupyter notebook
 ```
 
-`cd` to the Analysis_Packages folder and open the Analysis_Packages notebook
-
-```shell
-(base_analysis) yourname@something ~ % jupyter-lab Analysis_Packages.ipynb
-```
-
-Note that you may need to change the notebook kernel to ensure you have all required packages.
+Open the Analysis_Packages notebook inside the Analysis_Packages folder 
