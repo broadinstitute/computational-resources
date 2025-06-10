@@ -5,29 +5,27 @@ to install and use Jupyter Notebooks.
 
 ## Setup
 
-Activate your comp_resources virtual environment from the Virtual Environments module.
+Activate your base_analysis virtual environment from the Virtual Environments module.
 
 ```shell
-yourname@something ~ % conda activate comp_resources
+yourname@something ~ % source ~/base_analysis/bin/activate
 ```
-
-JupyterLab should already be installed if you have already pip installed the `requirements.txt` file in the Conda module, go back and do so if you have not already
 
 ## Opening a Jupyter Notebook
 
 Before running a Jupyter Notebook or Jupyter Lab, make your virtual environment available as a notebook kernel - instances of Python that a notebook can run on.
 
 ```shell
-(comp_resources) ... % python -m ipykernel install --user --name comp_resources
+(base_analysis) ... % python -m ipykernel install --user --name base_analysis
 ```
 
 You can start a new Jupyter Notebook session with your virtual environment
 
 ```shell
-(comp_resources) ... % jupyter notebook
+(base_analysis) ... % jupyter notebook
 ```
 
-Create a new notebook with the comp_resources kernel by selecting New and comp_resources under the Notebook heading.
+Create a new notebook with the base_analysis kernel by selecting New and base_analysis under the Notebook heading.
 
 <img src="images/new.png" alt="New" width="106"/>
 
