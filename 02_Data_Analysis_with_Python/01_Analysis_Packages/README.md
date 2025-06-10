@@ -1,11 +1,11 @@
 # Analysis Packages
 
-Activate your virtual environment if you haven't yet
+Activate your virtual environment and navigate to this repository if you haven't yet
 
 ```shell
 yourname@something ~ % source ~/base_analysis/bin/activate
+cd Desktop/computational-resources
 ```
-
 
 `cd` to the Analysis_Packages folder and open the Analysis_Packages notebook
 
