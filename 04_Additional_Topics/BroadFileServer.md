@@ -9,21 +9,21 @@ The Broad file server is a central storage workspace that all Broadies can acces
 - ```pwd``` (“print working directory”) 
 - ```ls``` (“list files”, or “let’s see what’s in this folder”) 
 - - ```ls *.fa``` shows every file in the folder with the .fa ending (you can change this to be another file ending, whatever you want!)
--	- ls A549* shows every file in the folder that begins with “A549”
-- cd (“change directory”)
-- cd insert/filepath/here to move to a folder that is inside the folder you are currently in
-- cd .. to move back/out one folder 
-- head filename (previews the designated file in the current folder)
+-	- ```ls A549*``` shows every file in the folder that begins with “A549”
+- ```cd```(“change directory”)
+- - ```cd insert/filepath/here``` to move to a folder that is inside the folder you are currently in
+- - ```cd ..``` to move back/out one folder 
+- ```head filename``` (previews the designated file in the current folder)
 
 ### Shortcuts
 - To obtain a (potentially long/annoying) filepath for a file you want to work with, locate the file or folder in Finder and drag into terminal
 - Hit tab (on your keyboard) to autocomplete a folder or filename if no others in the current folder have the same name 
 - Hit the up arrow on your keyboard to see prior commands you’ve typed out in terminal 
-- To see a specific prior command you’ve used in terminal, press control + r, type out a string of characters that you know was in the command, and then keep hitting control + r until terminal shows the command you were looking for. Then hit enter to run the command. 
-- control + a to move your cursor to the beginning of the line
-- control + e to move your cursor to the end of the line 
-- control + a + k to clear a whole line 
-- control + c to cancel whatever terminal is doing (“the emergency button”) 
+- To see a specific prior command you’ve used in terminal, press ```control + r```, type out a string of characters that you know was in the command, and then keep hitting ```control + r``` until terminal shows the command you were looking for. Then hit ```enter``` to run the command. 
+- ```control + a``` to move your cursor to the beginning of the line
+- ```control + e``` to move your cursor to the end of the line 
+- ```control + a + k``` to clear a whole line 
+- ```control + c``` to cancel whatever terminal is doing (“the emergency button”) 
 
 
 ### Space characters in terminal
