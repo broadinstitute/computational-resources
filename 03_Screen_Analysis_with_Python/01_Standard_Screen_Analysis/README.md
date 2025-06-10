@@ -1,9 +1,10 @@
 # Standard Screen Analysis
 
-Activate your virtual environment if you haven't yet
+Activate your virtual environment and navigate to this repository if you haven't yet
 
 ```shell
 yourname@something ~ % source ~/base_analysis/bin/activate
+cd Desktop/computational-resources
 ```
 
 
