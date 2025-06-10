@@ -5,10 +5,11 @@ to install and use Jupyter Notebooks.
 
 ## Setup
 
-Activate your base_analysis virtual environment from the Virtual Environments module.
+If you are opening a fresh Terminal window, activate your virtual environment and navigate to this repository
 
 ```shell
 yourname@something ~ % source ~/base_analysis/bin/activate
+cd Desktop/computational-resources
 ```
 
 ## Opening a Jupyter Notebook
@@ -70,7 +71,13 @@ I'm testing out **Jupyter Notebooks**
 When you are done working on a project first save your notebook. 
 Then exit from the Jupyter server by opening the Terminal window with the running server and type `ctrl + c`.
 
-## What's Next
+## Next steps in the tutorial
+
+For the rest of the tutorial up to 04_Additional_topics, you can navigate through the tutorial directly from the Jupyter Notebook window that is already open (although the README.md of each section provides instructions on how to get started if you do not already have this open). 
+
+**Note:** if you are going through this tutorial as part of your GPP R&D onboarding, please complete up until 03_Screen_Analysis_with_Python, then reach out to Smriti (ssrikant@broadinstitute.org) to set up your "Screen Design and Analysis 101" meeting, which introduces the concepts and approach used in this section. 
+
+### Curious to learn more about Jupyter notebooks? 
 
 Check out [Jupyter_Notebooks_shortcut_tips.md](Jupyter_Notebooks_shortcut_tips.md) for shortcuts you can use in Jupyter. 
 The resources below are also helpful references for learning more.
