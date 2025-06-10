@@ -1,15 +1,16 @@
 # Analysis Packages
 
-To get start activate your virtual environment
+Activate your virtual environment if you haven't yet
 
 ```shell
-yourname@something ~ % conda activate comp_resources
+yourname@something ~ % source ~/base_analysis/bin/activate
 ```
+
 
 `cd` to the Analysis_Packages folder and open the Analysis_Packages notebook
 
 ```shell
-(comp_resources) yourname@something ~ % jupyter-lab Analysis_Packages.ipynb
+(base_analysis) yourname@something ~ % jupyter-lab Analysis_Packages.ipynb
 ```
 
 Note that you may need to change the notebook kernel to ensure you have all required packages.
