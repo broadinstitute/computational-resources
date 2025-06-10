@@ -1,9 +1,10 @@
 # Introduction to Python
 
-Activate your virtual environment if you haven't yet
+Activate your virtual environment and navigate to this repository if you haven't yet
 
 ```shell
 yourname@something ~ % source ~/base_analysis/bin/activate
+cd Desktop/computational-resources
 ```
 
 `cd` to the Introduction_to_Python folder and open the Intro_to_Python notebook
