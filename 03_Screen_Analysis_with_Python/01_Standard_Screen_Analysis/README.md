@@ -1,17 +1,10 @@
 # Standard Screen Analysis
 
-Activate your virtual environment and navigate to this repository if you haven't yet
+Activate your virtual environment, navigate to this repository, and open jupyter notebook if you haven't yet
 
 ```shell
 yourname@something ~ % source ~/base_analysis/bin/activate
 cd Desktop/computational-resources
+jupyter notebook
 ```
-
-
-`cd` to the Standard_Screen_Analysis folder and open the Visualization_Packages notebook
-
-```shell
-(base_analysis) yourname@something ~ % jupyter-lab Standard_Screen_Analysis.ipynb
-```
-
-Note that you may need to change the notebook kernel to ensure you have all required packages.
+Open the Standard_Screen_Analysis notebook inside the Screen_Analysis_with_Python folder
