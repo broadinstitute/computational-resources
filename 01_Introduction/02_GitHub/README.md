@@ -28,16 +28,20 @@ To make a copy of the *[computational-resources](https://github.com/gpp-rnd/comp
 
 1. Open your terminal
    
-2. Navigate to your desktop 
+2. Navigate to your desktop
+   
 ```cd Desktop```
    
 4. Enter the following to make a copy of this repository on your desktop:
+
 ```git clone https://github.com/gpp-rnd/computational-resources.git ```
+
 This link can be found by clicking the green "Code" button in the repository page.
    
    ![Code](images/github_clone_link.png)
 
 4. Change directory to this repository:
+
 ```cd computational-resources```
 
 ## GitHub Issues
