@@ -44,6 +44,10 @@ This link can be found by clicking the green "Code" button in the repository pag
 
 ```cd computational-resources```
 
+If you close and reopen terminal at any point while working through this tutorial, navigate to the repository again with the following command:
+
+``` cd Desktop/computational-resources```
+
 ## GitHub Issues
 
 GitHub provides a great interface for reporting bugs and making suggestions for repositories. 
