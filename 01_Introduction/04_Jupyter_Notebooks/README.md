@@ -33,10 +33,6 @@ This will generate a notebook like the one below
 
 <img src="images/jupyter_notebook.png" alt="Notebook" width="500"/>
 
-**Tip** You can also launch a Jupyter-lab session with an updated interface that allows for multi-window viewing. The notebook functionality will remain the same irrespective of which installation method you choose.
-```
-jupyter-lab
-```
 
 ## Using Jupyter Notebooks
 
