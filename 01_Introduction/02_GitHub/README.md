@@ -37,6 +37,8 @@ To make a copy of the *[computational-resources](https://github.com/gpp-rnd/comp
 
 *Refer to the "01_Shell_Commands" folder in the "01_Introduction" folder for details on this command.    
 
+4. Change directory to this repository ```cd computational-resources```
+
 ## GitHub Issues
 
 GitHub provides a great interface for reporting bugs and making suggestions for repositories. 
