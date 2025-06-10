@@ -6,10 +6,10 @@ The Broad file server is a central storage workspace that all Broadies can acces
 ## First: handy tips for using Terminal 
 
 ### Essential terminal commands
-- pwd (“print working directory”) 
-- ls (“list files”, or “let’s see what’s in this folder”) 
-- ls *.fa shows every file in the folder with the .fa ending (you can change this to be another file ending, whatever you want!)
--	ls A549* shows every file in the folder that begins with “A549”
+- ```pwd``` (“print working directory”) 
+- ```ls``` (“list files”, or “let’s see what’s in this folder”) 
+- - ```ls *.fa``` shows every file in the folder with the .fa ending (you can change this to be another file ending, whatever you want!)
+-	- ls A549* shows every file in the folder that begins with “A549”
 - cd (“change directory”)
 - cd insert/filepath/here to move to a folder that is inside the folder you are currently in
 - cd .. to move back/out one folder 
